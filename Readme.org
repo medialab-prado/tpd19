@@ -61,10 +61,14 @@ El taller comienza el lunes 25 de marzo y termina el viernes 29 de marzo de la s
 - Xaquín González Veira.
 
 *** Mentorías técnicas
-- Karma Peiró.
+- Covadonga Fernández
+- Álvaro Valiño
+- Jorge Molero
+
+*** Facilitación
 - Mertxe Bilbao
-- Alba Martín.
-- María Navarro Sorolla.
+- Alba Martín
+
 
 ** FAQS
 *** ¿Puedo presentar más de un proyecto?
