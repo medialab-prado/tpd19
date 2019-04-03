@@ -1,0 +1,391 @@
+/*
+CFI
+*/
+
+html, body {
+    overflow-x: hidden;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 1.45em;
+    font-family: "Open Sans", Verdana, Arial, "Helvetica Neu", Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.content {
+    font-size: 1.125em;
+    /* 1.125em relative to a 16px baseline on the body will result in a 18px font size */
+    line-height: 1.85em;
+    font-family: "Open Sans", Verdana, Arial, "Helvetica Neu", Helvetica, sans-serif;
+    color: #141412;
+    margin-bottom: 2em; /* añadido juanan */
+}
+
+#notebook-container .section-title {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 1em;
+    font-size: 2em;
+    line-height: 1.1em;
+}
+
+#notebook-container h1 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #B71234;
+}
+#notebook-container h2 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+#notebook-container h3 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+#notebook-container h4 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#notebook-container ul {
+    list-style-type: square;
+}
+#notebook-container a {
+    color: #B71234;
+}
+#notebook-container a:hover {
+    color: #F14C3C;
+    text-decoration: none;
+    /*
+    color: #B8281A;
+    font-weight: 600;
+    text-decoration: none;
+    */
+}
+
+#notebook-container .info a,.ad a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#notebook-container .warning a {
+    color: #141412;
+    text-decoration: underline;    
+}
+
+#notebook-container blockquote {
+    border-left: 3px solid #B71234;
+    margin-left: 1rem;
+}
+
+.prompt.input_prompt,
+.prompt.output_prompt,
+a.anchor-link {
+    display: none;
+}
+
+#notebook-container {
+    box-shadow: none;
+    //font-size: 1.125em;
+    /* 1.125em relative to a 16px baseline on the body will result in a 18px font size */
+    line-height: 1.85em;
+    font-family: "Open Sans", Verdana, Arial, "Helvetica Neu", Helvetica, sans-serif;
+    color: #141412;
+    margin-bottom: 2em; /* añadido juanan */
+}
+
+/* Secciones DO ------------------------------------------------------------*/
+
+.beforedo {
+    margin-top: 0.2em;
+    padding-right: 0.6rem;
+    /* Color del icono que aparece antes de un párrafo do*/
+    color: #B71234;
+}
+
+.do-container {
+    font-size: 1rem;
+    line-height: 1.65em;
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #e1e1e1;
+    padding: 1em;
+    border-radius: 15px;
+    border-color: #B71234;
+    border-width: 1px;
+}
+
+.do p,
+p.do {
+    margin: 0;
+}
+
+/* Secciones Warning ------------------------------------------------------------*/
+.beforewarn {
+    margin-top: 0.2em;
+    padding-right: 0.6rem;
+    /* Color del icono que aparece antes de un párrafo warn*/
+    color: black;
+    font-size: larger
+}
+
+.warn-container {
+    font-size: 1rem;
+    line-height: 1.65em;
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f1c40f;
+    padding: 1em;
+    border-radius: 15px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+}
+.warn-p {
+}
+
+p.warning,
+.warn p {
+    margin: 0;
+}
+
+/* Secciones Info ------------------------------------------------------------*/
+
+.info-container {
+    font-size: 1rem;
+    line-height: 1.65em;
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #3498db;
+    padding: 1em;
+    border-radius: 15px;
+    border-color: #B71234;
+    border-width: 1px;
+    color: #fff;
+}
+
+.beforeinfo {
+    margin-top: 0.2em;
+    padding-right: 0.6rem;
+    /* Color del icono que aparece antes de un párrafo info*/
+    color: #fff;
+    font-size: larger
+}
+
+p.info,
+.info p {
+    margin: 0;
+}
+
+/* Secciones AD ------------------------------------------------------------*/
+
+.beforead {
+    margin-top: 0.2em;
+    padding-right: 0.6rem;
+    /* Color del icono que aparece antes de un párrafo do*/
+    color: #ffffff;
+}
+
+.ad-container {
+    font-size: 1rem;
+    line-height: 1.65em;
+    margin: 2rem 0.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #27ae60;
+    padding: 2em;
+    border-radius: 15px;
+    border-color: #B71234;
+    border-width: 2px;
+    color: #ffffff;
+}
+.ad-p {
+}
+
+.ad p,
+p.ad {
+    margin: 0;
+}
+
+.ad-p a, .info a {
+    color: #ffffff;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* Secciones de ejercicios ------------------------------------------------------------*/
+div.ej {
+    border-color: #B71234;
+    border-width: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    margin-top: 2em;
+    display: flex;
+}
+
+div.ej>div.icon {
+    font-size: 2rem;
+    color: #B71234;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    font-weight: 200;
+}
+div.ej>div.ej_content {
+    padding: 1.5em 1.5em 1.5em 1em;
+}
+
+.icon>a {
+    color: #ffffff;
+}
+div.ej_solucion>div.icon {
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: 0.5em;
+    font-weight: 100;
+}
+
+div.ej_solucion .ej_content {
+    text-align: justify;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
+div.clear{
+    clear: both;
+}
+
+div.cell, div.text_cell_render {
+    padding: 0;
+}
+
+.input_area,
+.output_area {
+    font-size: 0.9rem;
+}
+
+.input_area {
+    margin-top: 1rem;
+}
+
+.output_area {
+    margin-bottom: 1rem;
+}
+
+/* Tabla de contenidos ------------------------------------------------------------*/
+
+/* Para todos los contenidos (tomando como base los dispositivos pequeños)*/
+
+#tableOfContents {
+    list-style: none;
+    border-left: 2px solid #B71234;
+    font-size: 0.8rem;
+}
+
+a.aTOC {
+    color: #999;
+    padding-left: 1em;
+}
+#headTOC {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    color: #555;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+#headTOC p:first-child {
+    font-weight: normal;
+    margin: 0;
+    font-size: small;
+}
+
+#logo-CFI {
+    height: 100px;
+    width: auto;
+}
+
+/* Para escritorio ponemos el índice fijo a la derecha */
+
+@media (min-width: 768px) {
+    #tableOfContents {
+        position: fixed;
+        top: 70px;
+        padding: 1em 1em;
+        border-left: 2px solid #B71234;
+        list-style: none;
+    }
+    a.aTOC {
+        color: #999;
+        padding-left: 1em;
+    }
+    #headTOC {
+        font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+        color: #555;
+        font-weight: 700;
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        margin-top: 0;
+    }
+}
+
+
+.navbar-collapse {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#navtitle {
+    flex: 2;
+    text-align: center;
+}
+
+.navbar-left span.glyphicon {
+    padding-right: 0.5rem;
+}
+
+.navbar-right span.glyphicon {
+    padding-left: 0.5rem;
+}
+
+@media print
+{    
+	html, body {
+        font-size: 12px;
+    }
+
+    #tableOfContents,
+    #content {
+        display: none;
+    }
+
+    a[href]:after {
+        content: "";
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+	#notebook {
+    	overflow-y: scroll;
+    }
+}

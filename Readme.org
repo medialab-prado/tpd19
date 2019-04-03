@@ -5,121 +5,18 @@
 #+OPTIONS:  num:nil todo:nil pri:nil tags:nil ^:nil TeX:nil toc:nil
 
 
-En 2019, los talleres [[https://www.medialab-prado.es/programas/interactivos19-comer-contra-el-colapso][Interactivos]]? y [[https://www.medialab-prado.es/programas/taller-de-periodismo-de-datos-2019-sigue-el-rastro-de-la-comida][Periodismo de Dato]]s van a trabajar sobre el complejo mundo de la
+En 2019, los talleres [[https://www.medialab-prado.es/programas/interactivos19-comer-contra-el-colapso][Interactivos]]? y [[https://www.medialab-prado.es/programas/taller-de-periodismo-de-datos-2019-sigue-el-rastro-de-la-comida][Periodismo de Dato]]s han trabajado sobre el complejo mundo de la
 alimentación, en relación con los [[https://www.un.org/sustainabledevelopment/es/objetivos-de-desarrollo-sostenible/][ODS]].
-
-Te invitamos a analizar, narrar o rediseñar, de forma creativa y radical, el cambio en los modelos alimentarios que pueda servir para
-reducir las probabilidades de colapso ambiental.
 
 Paisaje, territorio, uso de recursos, fertilizantes, sistemas de cultivo y cría, logística, distribución,
 modos de consumo, cultura de la comida, relaciones sociales, residuos, contaminación de los diferentes
 modelos, etc., son algunas de las perspectivas posibles.
 
-Vente a trabajar con Hassel Fallas, Lázaro Gamio, Xaquín González, Covadonga Fernández, Álvaro Maliño y Jorge
-Molero (más por venir) del lunes 25 al viernes 29 de marzo.
-
 Como cualquier taller de producción desarrollado en el centro cultural Medialab-Prado (dependiente del
 Ayuntamiento de Madrid) los proyectos seleccionados provienen de una convocatoria abierta que se anuncia a la
-vez que el propio taller, el viernes 26 de noviembre y que finaliza el 9 de enero. Una semana después, el
-lunes 16 de enero, se anuncian los proyectos seleccionados y se lanza la convocatoria de colaboraciones.
+vez que el propio taller, el viernes 26 de noviembre de 2018 y que finaliza el 9 de enero de 2019. Después se
+anunciaron los [[https://bit.ly/tpd19proyectos][proyectos seleccionados]] y se lanzó la [[https://bit.ly/tpd19colaboraciones][convocatoria de colaboraciones]].
 
-** Participa
-
-Cualquier persona puede participar en cualquiera de las dos convocatorias de los dos programas.
-
-En cuanto a la de periodismo de datos, este año hay varias novedades:
-- Se considera un taller internacional, por lo que.
-- financia el viaje y alojamiento de las personas promotoras de proyectos (una por proyecto) desde cualquier parte del mundo.
-- Se ofrecen un número limitado de plazas de alojamiento para las colaboraciones; las personas colaboradoras
-  corren con los gastos del viaje a Medialab pero cuentan con alojamiento y desayuno incluido.
-- Se incorpora el idioma inglés como co-oficial.
-
-Pero además, hay una novedad fundamental: el taller lo realizamos de lunes a viernes, de 10 a 20:30. Una semana
-intensa donde un proyecto periodístico basado en datos debe realizarse por completo.
-
-** Agenda
-
-El taller comienza el lunes 25 de marzo y termina el viernes 29 de marzo de la siguiente manera:
-
-*** Lunes 25, Jornada inaugural
-  - Mañana: presentación de proyectos y colaboraciones, formación de equipos.
-  - Tarde: simposio
-*** Martes 26-Jueves 28
-  - De 10 a 18 horas, trabajo en equipos
-  - De 18 a 20:30, minitalleres formativos
-*** Viernes 29, Jornada de clausura
-  - De 10 a 18 horas, fin del proyecto y preparación de la presentación.
-  - De 18 a 20:30, presentación final de proyectos y coloquio.
-** Equipo
-
-*** Comisariado
-- Adolfo Antón Bravo, responsable del Datalab.
-
-*** Mentorías
-- Hassel Fallas.
-- Lázaro Gamio.
-- Xaquín González Veira.
-
-*** Mentorías técnicas
-- Covadonga Fernández
-- Álvaro Valiño
-- Jorge Molero
-
-*** Facilitación
-- Mertxe Bilbao
-- Alba Martín
-
-
-** FAQS
-*** ¿Puedo presentar más de un proyecto?
-Sí, se pueden presentar más de un proyecto, aunque solo será seleccionado uno.
-*** ¿Me puedo presentar a la convocatoria de Interactivos? y a la de Periodismo de datos?
-Sí, ¡por favor!
-*** ¿Puedo presentar una propuesta colectiva?
-Sí, se puede presentar una propuesta colectiva. En este caso, solo se financia el viaje de una de las personas
-pero las otras pueden apuntarse a la convocatoria de colaboraciones y tendrán alojamiento.
-*** ¿Se pueden presentar proyectos ya iniciados?
-Sí, se pueden presentar proyectos ya iniciados, periodísticos o no, incluso finalizados hace tiempo, siempre
-que quieran realizar una investigación nueva y un producto nuevo.
-*** ¿Por qué el cambio en el periodo temporal?
-En las primeras ediciones el taller de periodismo de datos se había realizado en dos fines de semana de dos
-meses distintos, con un mes intermedio libre. En la primera sesión se realizaba una charla y un taller con
-ponentes internacionales, comenzaban los proyectos, llevaban vida propia en el mes intermedio y, finalmente,
-en la segunda sesión se remataban y se presentaban. Incluso hacíamos un concurso y nombrábamos a un proyecto
-ganador que era supuestamente publicado en El Confidencial.
-
-En 2016 comenzamos a realizar sesiones intermedias informales y en 2017 formalizamos un taller en 3 sesiones
-que además contaba con una sesión previa, el día de los datos abiertos, de tal manera que cinco de los ocho
-proyectos que se seleccionaron se habían anunciado este día y habían comenzado a trabajar en equipo. Hasta
-aquí el ecosistema de los talleres fue creciendo.
-
-Sin embargo, en 2018 ampliamos el número de sesiones a cinco y nos encontramos con múltiples problemas de
-organización, no atribuibles en su mayoría al taller en sí, que hicieron que haya sido un año atípico.
-
-En 2019 hacemos una apuesta: una semana, de lunes a viernes, con un simposio el primer día, con dinámicas de
-formación de equipos, con mentorías
-especializadas y con trabajo colaborativo y multidisciplinar en el mejor de los escenarios... ¿puede salir
-algo mal? Lo sabremos el 29 de marzo de 2019.
-*** ¿Alguna pregunta más?
-Escribe a visualizar EN medialab guión prado punto es para resolverla, o bien abre una issue en Github.
-** Talleres
-En esta ocasión, propondremos un número determinado de talleres y solo los que tengan un mínimo de asistentes
-previamente acreditados se realizarán.
-*** Python con Jupyter
-    :PROPERTIES:
-    :Tallerista: Yolanda García Ruiz
-    :EXPORT_DATE: <2019-03-28 18:00>
-    :END:
-
-*** Follow the food with Blockchain
-    :PROPERTIES:
-    :Tallerista: Daniel José Mery
-    :END:
-
-Utilizando la cadena de bloques de Hyperledger, open source y permisionada desarrollaremos a través de sus dos frameworks, Sawtooth y Fabric un blockchain para realizar el seguimiento de productos agrícolas base de la alimentación. Con la cadena podremos realizar un seguimiento de la producción del producto en origen y sus características de interés, el procesamiento posterior de los mismos, sus transportación, el control de reguladores y finalmente su arribo al punto de venta. Resumiendo podremos “trazar” toda su cadena de eventos desde su producción en origen hasta el punto de consumo. Blockchain y en particular Hyperledger garantizan un seguimiento de todo el proceso a través de una mínima participación de la “interface humana”, basándonos en sensores (IoT), una información inmutable y por lo tanto confiable.
-
-En el taller veremos conceptos de la cadena de bloques, seguridad basada en “hash”, aplicaciones, activos, actores, algoritmos de consenso, red de nodos, etc. Desplegamos un caso concreto de uso, con lo cual los participantes podrán tener una experiencia práctica. Es un taller orientado a introducirnos en las tecnologías de blockchain, ver un caso concreto de uso y poder experimentar con él. Finalmente a los participantes se les entregará un tutorial completo de instalación y uso.
-
-Requerimientos
-- Proyector y pantalla
-- Conexión a internet por cable (para garantizar la conexión con el nodo de prueba)
+- [[https://bit.ly/tpd19agenda][Agenda]]
+- [[https://bit.ly/tpd19simposio][Simposio]]
+- [[https://bit.ly/tpd19talleres][Talleres]]

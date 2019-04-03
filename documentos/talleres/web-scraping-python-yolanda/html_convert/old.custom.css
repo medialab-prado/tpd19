@@ -1,0 +1,222 @@
+/*
+CFI
+*/
+
+html, body {
+    overflow-x: hidden;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 1.45em;
+    font-family: "Open Sans", Verdana, Arial, "Helvetica Neu", Helvetica, sans-serif;
+}
+
+body {
+    padding-top: 70px;
+}
+
+#notebook-container .section-title {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+
+#notebook-container h1 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    text-align: right;
+    font-size: 2em;
+    font-weight: 500;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #B71234;
+}
+#notebook-container h2 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    margin-top: 1.8em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+#notebook-container h3 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+#notebook-container h4 {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+#notebook-container ul {
+    list-style-type: square;
+}
+#notebook-container a {
+    color: #B71234;
+}
+#notebook-container a:hover {
+    color: #F14C3C;
+    text-decoration: none;
+    /*
+    color: #B8281A;
+    font-weight: 600;
+    text-decoration: none;
+    */
+}
+
+#notebook-container blockquote {
+    border-left: 3px solid #B71234;
+    margin-left: 1rem;
+}
+.prompt.input_prompt {
+	margin-top: 1rem;
+	font-size: 0.9rem;
+	padding-top: 0.4em;
+}
+
+/*.prompt.input_prompt,*/
+a.anchor-link {
+    display: none;
+}
+
+
+
+#notebook-container {
+    box-shadow: none;
+    font-size: 1.125em;
+    /* 1.125em relative to a 16px baseline on the body will result in a 18px font size */
+    line-height: 1.85em;
+    font-family: "Open Sans", Verdana, Arial, "Helvetica Neu", Helvetica, sans-serif;
+    color: #141412;
+    margin-bottom: 2em; /* añadido juanan */
+}
+
+#notebook {
+    font-size: 1rem;
+}
+
+div.cell, div.text_cell_render {
+    padding: 0;
+}
+
+.input_area,
+.output_area {
+    font-size: 0.9rem;
+}
+
+.input_area {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+	.input_area {
+		margin-top: 0.2rem;
+	}
+}
+
+.output_area {
+    margin-bottom: 1rem;
+}
+
+/* Tabla de contenidos ------------------------------------------------------------*/
+
+/* Para todos los contenidos (tomando como base los dispositivos pequeños)*/
+
+#tableOfContents {
+    list-style: none;
+    border-left: 2px solid #B71234;
+    font-size: 0.8rem;
+}
+
+a.aTOC {
+    color: #999;
+    padding-left: 1em;
+}
+#headTOC {
+    font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+    color: #555;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+    margin-top: 1em;
+}
+
+#headTOC p:first-child {
+    font-weight: normal;
+    margin: 0;
+    font-size: small;
+}
+
+#logo-CFI {
+    height: 100px;
+    width: auto;
+}
+
+/* Para escritorio ponemos el índice fijo a la derecha */
+
+@media (min-width: 768px) {
+    #tableOfContents {
+        position: fixed;
+        top: 70px;
+        padding: 1em 1em;
+        border-left: 2px solid #B71234;
+        list-style: none;
+    }
+    a.aTOC {
+        color: #999;
+        padding-left: 1em;
+    }
+    #headTOC {
+        font-family: Bitter, "Helvetica Neu", Helvetica, Arial, sans-serif;
+        color: #555;
+        font-weight: 700;
+        font-size: 1.2em;
+        margin-bottom: 0.5em;
+        margin-top: 0;
+    }
+}
+
+
+.navbar-collapse {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#navtitle {
+    flex: 2;
+    text-align: center;
+}
+
+.navbar-left span.glyphicon {
+    padding-right: 0.5rem;
+}
+
+.navbar-right span.glyphicon {
+    padding-left: 0.5rem;
+}
+@media print
+{    
+	html, body {
+        font-size: 12px;
+    }
+
+    #tableOfContents,
+    #content {
+        display: none;
+    }
+
+    a[href]:after {
+        content: "";
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+
+	#notebook {
+    	overflow-y: scroll;
+    }
+}
